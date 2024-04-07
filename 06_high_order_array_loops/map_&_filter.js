@@ -22,4 +22,7 @@ let mynum = [1,2,3,4,5,6,7,8,9,10]
 // const newnum = mynum.map((n)=> n +20)
 // console.log(newnum)
 
-const newnum= mynum.map()
+const newnum= mynum.map((n)=> n*10)
+                   .map((n)=>n+5)
+                   .filter((n)=> n>30)
+console.log(newnum)
