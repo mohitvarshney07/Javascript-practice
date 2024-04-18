@@ -1,6 +1,7 @@
 body{
     background-color: #212121;
     color: #fff;
+    user-select: none;
 }
 .center{
     display: flex;
